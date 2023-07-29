@@ -1,0 +1,2 @@
+/home/kuba/anaconda3
+/home/kuba/anaconda3/envs/general
