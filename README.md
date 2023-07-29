@@ -5,5 +5,5 @@
 ./install.sh # Runs stow on dot directories
 ```
 ```
-./install.sh # Cleans up stow symlinks
+./clean.sh # Cleans up stow symlinks
 ```
