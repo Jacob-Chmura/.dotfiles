@@ -8,6 +8,7 @@ return require('packer').startup(function(use)
         use 'tpope/vim-fugitive'
         use 'sindrets/diffview.nvim'
         use { 'nvim-telescope/telescope.nvim', tag = '0.1.2', requires = { 'nvim-lua/plenary.nvim' } }
+        use({ 'toppair/peek.nvim', run = 'deno task --quiet build:fast' })
         use('nvim-treesitter/nvim-treesitter', { run = ':TSUpdate' })
         use { 'VonHeikemen/lsp-zero.nvim', branch = 'v2.x',
                 requires = {
