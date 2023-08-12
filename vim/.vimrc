@@ -20,3 +20,5 @@ inoremap kj <Esc>
 
 set incsearch
 set ignorecase
+
+let g:netrw_banner = 0
