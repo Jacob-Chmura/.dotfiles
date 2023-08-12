@@ -16,3 +16,5 @@ vim.g.netrw_sizestyle = "H"
 -- Netrw list style
 vim.g.netrw_liststyle = 3
 
+
+vim.cmd [[autocmd BufWritePre * lua vim.lsp.buf.format()]]
